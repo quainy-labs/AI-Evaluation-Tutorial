@@ -13,13 +13,15 @@ systems that are repeatable, inspectable, and connected to real product decision
 | --- | --- |
 | `AI_EVALUATION_TUTORIAL.md` | A comprehensive Quainy-aligned guide to AI evaluation concepts, workflows, risks, metrics, reporting, and production monitoring. |
 | `LLM_OUTPUT_EVALUATION_PYTHON_EXAMPLE.md` | A hands-on Markdown walkthrough with a runnable Python example for evaluating LLM outputs across multiple phases. |
+| `AI_EVALUATION_ENGINEER_ROADMAP.md` | A staged roadmap for becoming an AI evaluation engineer, including skills, projects, tools, and interview readiness. |
 
 ## Recommended Learning Path
 
 1. Start with `AI_EVALUATION_TUTORIAL.md` to understand the full evaluation lifecycle.
 2. Read `LLM_OUTPUT_EVALUATION_PYTHON_EXAMPLE.md` to see how the ideas become a practical evaluation harness.
-3. Adapt the Python example to your own use case by replacing the sample customer-support cases with your product's real tasks, risks, and success criteria.
-4. Turn the evaluation into a regression suite that can be rerun whenever prompts, models, tools, retrieval data, or policies change.
+3. Use `AI_EVALUATION_ENGINEER_ROADMAP.md` to plan deeper skill building and portfolio projects.
+4. Adapt the Python example to your own use case by replacing the sample customer-support cases with your product's real tasks, risks, and success criteria.
+5. Turn the evaluation into a regression suite that can be rerun whenever prompts, models, tools, retrieval data, or policies change.
 
 ## Core Evaluation Loop
 
