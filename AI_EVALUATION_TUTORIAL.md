@@ -1,4 +1,4 @@
-# AI Evaluation Tutorial: A Comprehensive Quainy-Aligned Guide
+# AI Evaluation Tutorial: A Comprehensive Practical Guide
 
 ## Purpose
 
@@ -6,11 +6,11 @@ This tutorial teaches how to evaluate AI systems rigorously, practically, and re
 
 It focuses on real AI products, especially LLM applications, RAG systems, copilots, agents, classification models, recommendation systems, and generative AI features.
 
-## How This Aligns With Quainy
+## Evaluation Philosophy
 
-Quainy is a builder-focused AI ecosystem that helps curious learners become independent creators. This tutorial follows that principle by treating AI evaluation as a capability learners can build, not a checklist they copy.
+This tutorial treats AI evaluation as a practical capability learners can build, not a checklist they copy. The focus is on understanding real problems, designing useful evidence, inspecting failures, and making better decisions about AI systems.
 
-| Quainy principle | How this tutorial applies it |
+| Principle | How this tutorial applies it |
 | --- | --- |
 | Builder-focused | Learners create evaluation briefs, datasets, rubrics, scorecards, reports, and regression suites. |
 | First-principles thinking | Each evaluation concept begins with the problem it solves before introducing tools or metrics. |
@@ -66,7 +66,7 @@ The most important question is:
 
 Good evaluation does not ask only whether a system is "smart." It asks whether the system is fit for purpose.
 
-## 2. The Quainy-Aligned Evaluation Loop
+## 2. The Practical Evaluation Loop
 
 Use this loop for every evaluation project:
 
@@ -81,7 +81,7 @@ Use this loop for every evaluation project:
 9. Decide and document.
 10. Monitor in production.
 
-### Quainy Check
+### Evaluation Readiness Check
 
 Before running any evaluation, ask:
 
@@ -181,7 +181,7 @@ Use the following risk map:
 | Latency | Too slow for workflow | p50/p95/p99 latency measurement |
 | UX | Frustrating, unclear, too verbose | Human task studies, satisfaction scores |
 
-### Quainy Alignment
+### Practical Principle
 
 This step is problems-first and human-centered. It prevents the team from celebrating one metric while ignoring the real harms, tradeoffs, and user needs that make the system worth evaluating in the first place.
 
@@ -393,7 +393,7 @@ For each evaluation question, define:
 | Cost | Cost per resolved ticket | <$0.15 | No |
 | Tone | Brand voice rating | >=4/5 | No |
 
-### Quainy Alignment
+### Practical Principle
 
 This step builds independent judgment. Thresholds force the team to explain what "good enough" means before seeing flattering or disappointing numbers.
 
@@ -771,9 +771,9 @@ A good evaluation ends in a decision.
 | Human and model judges disagree | Adjudicate and improve rubric |
 | Offline passes but online metrics regress | Roll back or limit rollout |
 
-### Quainy Alignment
+### Practical Principle
 
-This is where evaluation becomes capability, not paperwork. A builder should be able to look at the result, understand the tradeoff, and decide what to build or change next.
+This is where evaluation becomes capability, not paperwork. A team should be able to look at the result, understand the tradeoff, and decide what to build or change next.
 
 ## 14. Create An Evaluation Report
 
@@ -794,7 +794,7 @@ Version:
 Use case:
 Deployment context:
 
-## Quainy Alignment
+## Evaluation Principles
 Problem first:
 First-principles reasoning:
 Builder artifact created:
@@ -1025,7 +1025,7 @@ Do not release broadly. Release only to low-risk policy FAQ traffic or continue 
 - Add regression tests for failed high-risk cases.
 - Re-run evaluation before launch.
 
-### Quainy Review
+### Evaluation Review
 
 - Problem first: The evaluation starts from release readiness for a real HR assistant.
 - First principles: The team separates retrieval, grounding, escalation, privacy, and user impact.
@@ -1114,7 +1114,7 @@ Useful governance practices:
 
 NIST's AI Risk Management Framework is a useful reference because it emphasizes mapping, measuring, managing, and governing AI risks across the system lifecycle.
 
-## 20. A Quainy-Aligned Evaluation Checklist
+## 20. A Practical Evaluation Checklist
 
 Use this before every release:
 
@@ -1230,4 +1230,4 @@ evals/
 
 AI evaluation is not a one-time score. It is a builder's decision system.
 
-A Quainy-aligned evaluation starts with real problems, reasons from first principles, builds reusable artifacts, develops independent judgment, creates ownership of the technology, and improves systems that matter. That discipline is what turns AI development from guesswork into engineering capability.
+A strong evaluation starts with real problems, reasons from first principles, builds reusable artifacts, develops independent judgment, creates ownership of the technology, and improves systems that matter. That discipline is what turns AI development from guesswork into engineering capability.
